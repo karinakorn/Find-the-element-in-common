@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+       
+    <title>Mitos</title>
+  </head>
+  
+  <body class="flex_container flex_wrap">
+    <div class="flex_container flex_wrap">
+    <header class="flex_container flex_center flex_middle">
+      <h1>Encontrá las similitudes</h1>
+     <div class="flex_container flex_direction_column">
+      <p>Estas obras representan distintos mitos, sin embargo, cuatro de ellas tienen un elemento en común.</p>
+    <p>¿Te animás a buscarlo?</p>
+     </div>
+    </header>
+    
+
+    <section id="main">
+      
+      <div  class="flex_container flex_wrap flex_center">
+          
+        <div class="card flex_container flex_center flex_direction_column flex_wrap">       
+               <div class="flex_container flex_center" ><img src="img/Lucas_Cranach_-_Adán_y_Eva_(Museo_Soumaya,_Mexico).jpg" alt="Adan y Eva">
+                </div>
+                <div class="flex_container flex_center">
+                  <button id="button-1" class="select_img hvr-underline-from-center">Seleccionar</button>       
+                </div>
+        </div>
+
+        <div class="card  flex_container flex_center flex_direction_column flex_wrap">       
+          <div class="flex_container flex_center"><img src="img/NACIMIENTO-DE-VENUS-800x502-mqha0r6vu40putustvf4aree8d3p8ddoi6rhyfmbdg.jpg" alt="Adan y Eva">
+           </div>
+           <div class="flex_container flex_center">
+             <button id="button-2" class="select_img hvr-underline-from-center">Seleccionar</button>       
+           </div>
+        </div>
+   
+        <div class="card  flex_container flex_center flex_direction_column">       
+          <div class="flex_container flex_center"><img src="img/El-curioso-y-mitológico-origen-de-la-expresión-‘Ser-la-manzana-de-la-discordia’-Juicio-de-Paris-620x440.jpg" alt="Juicio de Paris">
+          </div>
+          <div class="flex_container flex_center">
+            <button id="button-3" class="select_img hvr-underline-from-center">Seleccionar</button>       
+          </div>
+        </div>
+        
+        <div class="card  flex_container flex_center flex_direction_column">       
+          <div class="flex_container flex_center"><img src="img/1280px-Golden_Apple_of_Discord_by_Jacob_Jordaens.jpg" alt="Adan y Eva">
+          </div>
+          <div class="flex_container flex_center">
+            <button id ="button-4" class="select_img hvr-underline-from-center">Seleccionar</button>       
+          </div>
+        </div>
+
+        <div class="card  flex_container flex_center flex_direction_column">       
+          <div class="flex_container flex_center"><img src="img/D_NQ_NP_765811-MLM20647090277_032016-O.jpg" alt="Adan y Eva">
+          </div>
+          <div class="flex_container flex_center">
+            <button id ="button-5" class="select_img">Seleccionar</button>       
+          </div>
+        </div>
+
+        <div class="card  flex_container flex_center flex_direction_column">       
+          <div class="flex_container flex_center"><img src="img/botticelli_800x669.jpg" alt="Adan y Eva">
+          </div>
+          <div class="flex_container flex_center">
+            <button id ="button-6" class="select_img">Seleccionar</button>       
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+      <section id= "comprobar-resultado" class="flex_container flex_center">
+        <button id="check"> ¿Gané? </button>
+      </section>
+
+      <section>
+        <div  id="win-pop-up" class="popup-wrapper">
+          <div class="popup">
+              <div class="popup-close">x</div>
+              <div class="popup-content">
+                  <h3>¡Ganaste!</h3>
+              </div>
+           </div>
+        </div>
+        
+        <div id="loose-pop-up" class="popup-wrapper">
+          <div class="popup">
+            <div class="popup-content">
+              <div class="popup-close">x</div>
+                <h3>Buen intento</h3>
+                <p>Mirá con cuidado las obras, la clave está en los detalles</p>
+                <button>Seguir jugando</button>
+            </div>
+         </div>
+        </div> 
+      </section>
+    </div>
+       
+
+
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+ 
+      
+  </body>
+
+</html>
